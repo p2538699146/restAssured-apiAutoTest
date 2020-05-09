@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="14" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="27425" started-at="2020-05-09T08:13:17Z" finished-at="2020-05-09T08:13:45Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="27425" started-at="2020-05-09T08:13:17Z" finished-at="2020-05-09T08:13:45Z">
+      <class name="cn.Knife.Wework.AddressBookManagement.UserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:cn.Knife.Wework.AddressBookManagement.UserTest@345965f2]" name="setUp" is-config="true" duration-ms="3740" started-at="2020-05-09T08:13:17Z" finished-at="2020-05-09T08:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testBatchdelete()[pri:0, instance:cn.Knife.Wework.AddressBookManagement.UserTest@345965f2]" name="testBatchdelete" duration-ms="3036" started-at="2020-05-09T08:13:21Z" finished-at="2020-05-09T08:13:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBatchdelete -->
+        <test-method status="PASS" signature="testCreate()[pri:0, instance:cn.Knife.Wework.AddressBookManagement.UserTest@345965f2]" name="testCreate" duration-ms="597" started-at="2020-05-09T08:13:24Z" finished-at="2020-05-09T08:13:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:cn.Knife.Wework.AddressBookManagement.UserTest@345965f2]" name="testDelete" duration-ms="1243" started-at="2020-05-09T08:13:25Z" finished-at="2020-05-09T08:13:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="testGet()[pri:0, instance:cn.Knife.Wework.AddressBookManagement.UserTest@345965f2]" name="testGet" duration-ms="1442" started-at="2020-05-09T08:13:26Z" finished-at="2020-05-09T08:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method status="PASS" signature="testList()[pri:0, instance:cn.Knife.Wework.AddressBookManagement.UserTest@345965f2]" name="testList" duration-ms="409" started-at="2020-05-09T08:13:28Z" finished-at="2020-05-09T08:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testList -->
+        <test-method status="PASS" signature="testSimplelist()[pri:0, instance:cn.Knife.Wework.AddressBookManagement.UserTest@345965f2]" name="testSimplelist" duration-ms="433" started-at="2020-05-09T08:13:28Z" finished-at="2020-05-09T08:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimplelist -->
+        <test-method status="PASS" signature="testUpdate()[pri:0, instance:cn.Knife.Wework.AddressBookManagement.UserTest@345965f2]" name="testUpdate" duration-ms="2069" started-at="2020-05-09T08:13:28Z" finished-at="2020-05-09T08:13:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cn.Knife.Wework.AddressBookManagement.UserTest@345965f2]" name="tearDown" is-config="true" duration-ms="2097" started-at="2020-05-09T08:13:31Z" finished-at="2020-05-09T08:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cn.Knife.Wework.AddressBookManagement.UserTest -->
+      <class name="cn.Knife.Wework.GetAccess_tokenTest">
+        <test-method status="FAIL" signature="errGetToken()[pri:0, instance:cn.Knife.Wework.GetAccess_tokenTest@4d49af10]" name="errGetToken" duration-ms="338" started-at="2020-05-09T08:13:39Z" description="获取token异常测试" finished-at="2020-05-09T08:13:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path errcode doesn't match.
+Expected: <0>
+  Actual: 41002
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path errcode doesn't match.
+Expected: <0>
+  Actual: 41002
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+at sun.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:277)
+at io.restassured.specification.ResponseSpecification$content$2.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:260)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:274)
+at cn.Knife.Wework.GetAccess_tokenTest.errGetToken(GetAccess_tokenTest.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- errGetToken -->
+        <test-method status="PASS" signature="testGetToken()[pri:0, instance:cn.Knife.Wework.GetAccess_tokenTest@4d49af10]" name="testGetToken" duration-ms="379" started-at="2020-05-09T08:13:40Z" description="获取token" finished-at="2020-05-09T08:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetToken -->
+      </class> <!-- cn.Knife.Wework.GetAccess_tokenTest -->
+      <class name="cn.Knife.Wework.WeworkConfigTest">
+        <test-method status="PASS" signature="yamlTest()[pri:0, instance:cn.Knife.Wework.WeworkConfigTest@279ad2e3]" name="yamlTest" duration-ms="3" started-at="2020-05-09T08:13:40Z" finished-at="2020-05-09T08:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yamlTest -->
+      </class> <!-- cn.Knife.Wework.WeworkConfigTest -->
+      <class name="cn.Knife.Wework.DepartmentTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:cn.Knife.Wework.DepartmentTest@429bd883]" name="setUp" is-config="true" duration-ms="839" started-at="2020-05-09T08:13:33Z" finished-at="2020-05-09T08:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDelete()[pri:0, instance:cn.Knife.Wework.DepartmentTest@429bd883]" name="testDelete" duration-ms="3480" started-at="2020-05-09T08:13:33Z" description="删除部门测试" finished-at="2020-05-09T08:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="testUpdate()[pri:0, instance:cn.Knife.Wework.DepartmentTest@429bd883]" name="testUpdate" duration-ms="2524" started-at="2020-05-09T08:13:37Z" description="修改部门测试" finished-at="2020-05-09T08:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdate -->
+        <test-method status="PASS" signature="testCreate()[pri:1, instance:cn.Knife.Wework.DepartmentTest@429bd883]" name="testCreate" duration-ms="2585" started-at="2020-05-09T08:13:40Z" description="创建部门测试" finished-at="2020-05-09T08:13:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:cn.Knife.Wework.DepartmentTest@429bd883]" name="tearDown" is-config="true" duration-ms="2069" started-at="2020-05-09T08:13:43Z" finished-at="2020-05-09T08:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cn.Knife.Wework.DepartmentTest -->
+      <class name="cn.Knife.Wework.WeworkLoginTest">
+        <test-method status="PASS" signature="testGetToken()[pri:0, instance:cn.Knife.Wework.WeworkLoginTest@58134517]" name="testGetToken" duration-ms="2" started-at="2020-05-09T08:13:40Z" finished-at="2020-05-09T08:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetToken -->
+      </class> <!-- cn.Knife.Wework.WeworkLoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

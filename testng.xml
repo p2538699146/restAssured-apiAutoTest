@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Knife_Rest-Assured" thread-count="3" verbose="1">
+    <test name="部门管理测试">
+        <classes>
+            <class name="cn.Knife.Wework.DepartmentTest"></class>
+        </classes>
+    </test>
+    <test name="增删除查用户测试">
+        <classes>
+        <class name="cn.Knife.Wework.AddressBookManagement.UserTest"></class>
+    </classes>
+    </test>
+</suite>
