@@ -2,6 +2,7 @@ package cn.Knife.Wework.AddressBookManagement;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.apache.log4j.Logger;
 
 /**
  * @author Knife
@@ -9,6 +10,8 @@ import io.restassured.response.Response;
  * @createTime 2020-05-07 15:30
  */
 public class GetAccess_token {
+
+    private Logger logger = Logger.getLogger(GetAccess_token.class);
 
     /**
      * 获取wework的access_token

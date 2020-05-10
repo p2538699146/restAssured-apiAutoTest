@@ -1,6 +1,7 @@
 package cn.Knife.Wework;
 
 import cn.Knife.Wework.Utils.Super_Utils;
+import org.apache.log4j.Logger;
 
 import java.util.Objects;
 
@@ -10,6 +11,8 @@ import java.util.Objects;
  * @createTime 2020-05-08 0:22
  */
 public class WeworkConfig extends Super_Utils {
+
+    private static Logger logger = Logger.getLogger(WeworkConfig.class);
 
     public String corpid = "1";
     public String corpsecret = "1";
@@ -38,8 +41,8 @@ public class WeworkConfig extends Super_Utils {
         if (Objects.nonNull(path)) {
             WeworkConfig wc = new WeworkConfig();
             return (WeworkConfig) YamlFactoryIsReadYamlAndWriterYaml(path, "1", wc);
-        } else {
-            throw new RuntimeException("当前文件路径为空！");
         }
+        logger.warn("当前读取ath路径为空！");
+        return null;
     }
 }

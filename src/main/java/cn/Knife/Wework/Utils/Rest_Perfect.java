@@ -2,6 +2,7 @@ package cn.Knife.Wework.Utils;
 
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
+import org.apache.log4j.Logger;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -16,12 +17,17 @@ import static io.restassured.RestAssured.given;
  */
 public class Rest_Perfect extends Super_Utils {
 
+    private static Logger logger = Logger.getLogger(Rest_Perfect.class);
 
     /**
      * 重写父类方法，每次调用都刷新RequestSpecification里面的内容
+     *
      * @return
      */
-    public  RequestSpecification getDefaultRequestSpecification() {
+    public RequestSpecification getDefaultRequestSpecification() {
+
+        logger.info("开始初始化RequestSpecification");
+
         RequestSpecification requestSpecification;
         requestSpecification = given()
                 .log().all()    //打印请求头信息
@@ -31,7 +37,9 @@ public class Rest_Perfect extends Super_Utils {
             //todo： 对请求响应，做封装
             return ctx.next(req, res);
         });
-        requestSpecification.then().log().all().expect().statusCode(200);   //打印响应信息，断言状态是200
+        requestSpecification.then()
+                .log().all()
+                .expect().statusCode(200);   //打印响应信息，断言状态是200
         return requestSpecification;
     }
 
@@ -43,6 +51,8 @@ public class Rest_Perfect extends Super_Utils {
     public String getSystemDate() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
         Date date = new Date();
+
+        logger.info("当前系统时间：" + date);
         return dateFormat.format(date);
     }
 }

@@ -1,8 +1,7 @@
 package cn.Knife.Wework;
 
 import cn.Knife.Wework.AddressBookManagement.Department;
-import io.qameta.allure.Description;
-import io.qameta.allure.Step;
+import io.qameta.allure.*;
 import org.testng.annotations.*;
 
 import java.util.Objects;
@@ -15,20 +14,26 @@ import static org.hamcrest.Matchers.hasItems;
  * @description
  * @createTime 2020-05-07 17:52
  */
+@Epic("企业微信-部门管理")   //模块
 public class DepartmentTest {
 
     private static Department department;
 
+    @Description("运行前初始化，运行前清理数据")  //用例描述
+    @Step("初始化Department对象")    //执行步骤
     @BeforeClass
-    @Step("运行前初始化，1.department为空则new，2.运行前清理数据")
     public void setUp() {
         department = Objects.isNull(department) ? new Department() : department;
         //初始化时清理测试数据
         department.deleteAll();
     }
 
+
+    @TmsLink("department__create_01")    //用例编号
+    @Issue("0101")  //bug编号
+    @Description("验证部门创建正确业务流程")  //描述
+    @Story("部门创建")  //执行步骤
     @Test
-    @Description(value = "正确创建部门测试")
     public void testCreate() {
         String data = department.getSystemDate();
         String name = "高级测试部门" + data;
@@ -50,7 +55,10 @@ public class DepartmentTest {
                 , "1", data.substring(10, 14), idOne);
     }
 
-    @Test(description = "修改部门测试")
+
+    @Description("验证修改部门的正确业务流程")
+    @Story("修改部门")
+    @Test
     public void testUpdate() {
         String data = department.getSystemDate();
         String name = "这是修改试部门测试" + data;
@@ -88,7 +96,9 @@ public class DepartmentTest {
                 .body("department.find { it.id==100 }.name", equalTo("更新高级测试部门"));
     }
 
-    @Test(description = "删除部门测试")
+    @Description("删除部门正确业务场景测试")
+    @Step("删除部门")
+    @Test
     public void testDelete() {
         String data = department.getSystemDate();
         String name = "删除部门测试" + data;
@@ -112,7 +122,8 @@ public class DepartmentTest {
         department.delete(idTwo).then().body("errcode", equalTo(0));
     }
 
-    @AfterClass
+    @AfterClass(description = "运行后，清理数据")
+    @Story("运行后清理数据，创建一个部门")
     public void tearDown() {
         //运行结束清理数据
         department.deleteAll();

@@ -27,6 +27,9 @@ public class Rest_Info extends Super_Utils {
      * @return
      */
     public static Rest_Info getInstance() {
-        return (rest_info = Objects.nonNull(rest_info) ? rest_info : new Rest_Info());
+        if (Objects.isNull(rest_info)) {
+            rest_info = new Rest_Info();
+        }
+        return rest_info;
     }
 }

@@ -33,6 +33,7 @@ public class Department extends Rest_Perfect {
         parame.put("parentid", parentid);
         parame.put("order", order);
         parame.put("id", id);
+
         String body = JSON.toJSONString(parame);
         return getResponseFromYaml("/department/create.yaml",new HashMap<String, Object>(){{
             put("$.body",body);
