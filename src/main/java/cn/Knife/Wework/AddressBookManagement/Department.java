@@ -27,12 +27,13 @@ public class Department extends Rest_Perfect {
      */
     public Response create(String name, String name_en, String parentid, String order, String id) {
         //将参数都添加到map
-        HashMap<String, Object> parame = new HashMap();
-        parame.put("name", name);
-        parame.put("name_en", name_en);
-        parame.put("parentid", parentid);
-        parame.put("order", order);
-        parame.put("id", id);
+        HashMap<String, Object> parame = new HashMap() {{
+            put("name",name);
+            put("name_en", name_en);
+            put("parentid", parentid);
+            put("order", order);
+            put("id", id);
+        }};
 
         String body = JSON.toJSONString(parame);
         return getResponseFromYaml("/department/create.yaml",new HashMap<String, Object>(){{

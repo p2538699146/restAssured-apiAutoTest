@@ -1,0 +1,37 @@
+2020-05-10 23:11:30 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:31 method: cn.Knife.Wework.Utils.Super_Utils.YamlFactoryIsReadYamlAndWriterYaml(Super_Utils.java:192) - [ INFO ] -> 当前操作状态：读取
+2020-05-10 23:11:35 method: cn.Knife.Wework.Utils.Rest_Perfect.getSystemDate(Rest_Perfect.java:55) - [ INFO ] -> 当前系统时间：Sun May 10 23:11:35 CST 2020
+2020-05-10 23:11:35 method: cn.Knife.Wework.Utils.Super_Utils.updateFromYamlRest_Info(Super_Utils.java:170) - [ INFO ] -> 当前参数获取方式：Json模板
+2020-05-10 23:11:35 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:36 method: cn.Knife.Wework.Utils.Super_Utils.updateFromYamlRest_Info(Super_Utils.java:162) - [ INFO ] -> 当前参数获取方式：从parame中取出body
+2020-05-10 23:11:36 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:37 method: cn.Knife.Wework.Utils.Super_Utils.updateFromYamlRest_Info(Super_Utils.java:162) - [ INFO ] -> 当前参数获取方式：从parame中取出body
+2020-05-10 23:11:37 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:37 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:38 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:38 method: cn.Knife.Wework.Utils.Rest_Perfect.getSystemDate(Rest_Perfect.java:55) - [ INFO ] -> 当前系统时间：Sun May 10 23:11:38 CST 2020
+2020-05-10 23:11:38 method: cn.Knife.Wework.Utils.Super_Utils.updateFromYamlRest_Info(Super_Utils.java:170) - [ INFO ] -> 当前参数获取方式：Json模板
+2020-05-10 23:11:38 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:38 method: cn.Knife.Wework.Utils.Rest_Perfect.getSystemDate(Rest_Perfect.java:55) - [ INFO ] -> 当前系统时间：Sun May 10 23:11:38 CST 2020
+2020-05-10 23:11:38 method: cn.Knife.Wework.Utils.Super_Utils.updateFromYamlRest_Info(Super_Utils.java:170) - [ INFO ] -> 当前参数获取方式：Json模板
+2020-05-10 23:11:38 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:39 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:39 method: cn.Knife.Wework.Utils.Rest_Perfect.getSystemDate(Rest_Perfect.java:55) - [ INFO ] -> 当前系统时间：Sun May 10 23:11:39 CST 2020
+2020-05-10 23:11:39 method: cn.Knife.Wework.Utils.Super_Utils.updateFromYamlRest_Info(Super_Utils.java:170) - [ INFO ] -> 当前参数获取方式：Json模板
+2020-05-10 23:11:39 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:40 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:40 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:41 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:41 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:41 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:42 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:42 method: cn.Knife.Wework.Utils.Rest_Perfect.getSystemDate(Rest_Perfect.java:55) - [ INFO ] -> 当前系统时间：Sun May 10 23:11:42 CST 2020
+2020-05-10 23:11:42 method: cn.Knife.Wework.Utils.Super_Utils.updateFromYamlRest_Info(Super_Utils.java:170) - [ INFO ] -> 当前参数获取方式：Json模板
+2020-05-10 23:11:42 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:43 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:43 method: cn.Knife.Wework.Utils.Super_Utils.updateFromYamlRest_Info(Super_Utils.java:162) - [ INFO ] -> 当前参数获取方式：从parame中取出body
+2020-05-10 23:11:43 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:44 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:44 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:45 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-10 23:11:45 method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification

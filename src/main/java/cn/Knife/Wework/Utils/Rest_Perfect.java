@@ -15,7 +15,7 @@ import static io.restassured.RestAssured.given;
  * @description
  * @createTime 2020-05-08 2:28
  */
-public class Rest_Perfect extends Super_Utils {
+public class Rest_Perfect extends JdbcUtil {
 
     private static Logger logger = Logger.getLogger(Rest_Perfect.class);
 
@@ -27,6 +27,14 @@ public class Rest_Perfect extends Super_Utils {
     public RequestSpecification getDefaultRequestSpecification() {
 
         logger.info("开始初始化RequestSpecification");
+
+        logger.info("\n              ____  __.        .__   _____                        \n" +
+                "  /\\|\\/\\       |    |/ _|  ____  |__|_/ ____\\  ____        /\\|\\/\\   \n" +
+                " _)    (__     |      <   /    \\ |  |\\   __\\ _/ __ \\      _)    (__ \n" +
+                " \\_     _/     |    |  \\ |   |  \\|  | |  |   \\  ___/      \\_     _/ \n" +
+                "   )    \\   /\\ |____|__ \\|___|  /|__| |__|    \\___  > /\\    )    \\  \n" +
+                "   \\/\\|\\/   \\/         \\/     \\/                  \\/  \\/    \\/\\|\\/  ");
+
 
         RequestSpecification requestSpecification;
         requestSpecification = given()

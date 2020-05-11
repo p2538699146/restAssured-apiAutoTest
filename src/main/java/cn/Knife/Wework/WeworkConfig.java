@@ -42,7 +42,7 @@ public class WeworkConfig extends Super_Utils {
             WeworkConfig wc = new WeworkConfig();
             return (WeworkConfig) YamlFactoryIsReadYamlAndWriterYaml(path, "1", wc);
         }
-        logger.warn("当前读取ath路径为空！");
+        logger.warn("当前读取Path路径为空！");
         return null;
     }
 }

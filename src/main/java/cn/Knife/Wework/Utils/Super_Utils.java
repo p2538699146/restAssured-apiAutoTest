@@ -41,14 +41,6 @@ public class Super_Utils {
      * @return
      */
     public RequestSpecification getDefaultRequestSpecification() {
-
-        logger.info("               ____  __.        .__   _____                        \n" +
-                "  /\\|\\/\\       |    |/ _|  ____  |__|_/ ____\\  ____        /\\|\\/\\   \n" +
-                " _)    (__     |      <   /    \\ |  |\\   __\\ _/ __ \\      _)    (__ \n" +
-                " \\_     _/     |    |  \\ |   |  \\|  | |  |   \\  ___/      \\_     _/ \n" +
-                "   )    \\   /\\ |____|__ \\|___|  /|__| |__|    \\___  > /\\    )    \\  \n" +
-                "   \\/\\|\\/   \\/         \\/     \\/                  \\/  \\/    \\/\\|\\/  ");
-
         return RestAssured.given();
     }
 
