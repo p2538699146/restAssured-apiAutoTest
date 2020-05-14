@@ -2,8 +2,7 @@ package cn.Knife.Wework;
 
 import cn.Knife.Wework.AddressBookManagement.Department;
 import cn.Knife.Wework.VariablesStore.VariablesUtil;
-import io.restassured.response.ValidatableResponse;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
@@ -15,12 +14,11 @@ import static org.hamcrest.Matchers.equalTo;
  * @description
  * @createTime 2020-05-11 21:26
  */
-public class VariablesTest {
+public class VariablesTest extends BaseTest{
     private static Department department = new Department();
 
-    private static VariablesUtil variablesUtil = new VariablesUtil();
 
-    @BeforeTest
+    @BeforeClass
     public void setUp() {
         department.deleteAll();
     }
@@ -29,7 +27,7 @@ public class VariablesTest {
     public void getMysqlVariableTest() {
 
         //从数据库中获取某个值，如果接口依赖这个值，比如：消费卷id，商品code；
-        String name = variablesUtil.getDepartmentName();
+        String name = VariablesUtil.getDepartmentName();
 
         //执行查询
         HashMap<String, Object> query = department.query("select api_Name from apiautotestparamter where case_Id = 8;");

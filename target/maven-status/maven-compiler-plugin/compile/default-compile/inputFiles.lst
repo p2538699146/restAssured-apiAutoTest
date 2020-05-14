@@ -1,7 +1,13 @@
-D:\Knife-Test\src\main\java\cn\Knife\Wework\AddressBookManagement\WeworkLogin.java
 D:\Knife-Test\src\main\java\cn\Knife\Wework\WeworkConfig.java
+D:\Knife-Test\src\main\java\cn\Knife\Wework\Utils\JdbcQueryUtil.java
+D:\Knife-Test\src\main\java\cn\Knife\Wework\Utils\ReadUtil.java
 D:\Knife-Test\src\main\java\cn\Knife\Wework\Utils\Rest_Info.java
+D:\Knife-Test\src\main\java\cn\Knife\Wework\Utils\SendEmail.java
 D:\Knife-Test\src\main\java\cn\Knife\Wework\AddressBookManagement\User.java
+D:\Knife-Test\src\main\java\cn\Knife\Wework\Utils\OutputDos.java
+D:\Knife-Test\src\main\java\cn\Knife\Wework\Utils\JdbcUtil.java
+D:\Knife-Test\src\main\java\cn\Knife\Wework\AddressBookManagement\WeworkLogin.java
+D:\Knife-Test\src\main\java\cn\Knife\Wework\VariablesStore\VariablesUtil.java
 D:\Knife-Test\src\main\java\cn\Knife\Wework\AddressBookManagement\Department.java
 D:\Knife-Test\src\main\java\cn\Knife\Wework\AddressBookManagement\GetAccess_token.java
 D:\Knife-Test\src\main\java\cn\Knife\Wework\Utils\Super_Utils.java

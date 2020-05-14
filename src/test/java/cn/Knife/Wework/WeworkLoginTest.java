@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
  * @description
  * @createTime 2020-05-08 2:10
  */
-public class WeworkLoginTest {
+public class WeworkLoginTest extends BaseTest{
 
     WeworkLogin weworkLogin = new WeworkLogin();
 

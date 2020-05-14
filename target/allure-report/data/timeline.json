@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WIN-Q5PJLV91P1O",
+    "children" : [ {
+      "name" : "6780@WIN-Q5PJLV91P1O.main(1)",
+      "children" : [ {
+        "name" : "testDelete",
+        "uid" : "83f5d3e2150af5a6",
+        "parentUid" : "93f359dd801397f9a5ed1e38071c960c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589478057722,
+          "stop" : 1589478062584,
+          "duration" : 4862
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testUpdate",
+        "uid" : "8e2444d6af6514b6",
+        "parentUid" : "93f359dd801397f9a5ed1e38071c960c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589478062606,
+          "stop" : 1589478066470,
+          "duration" : 3864
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testCreate",
+        "uid" : "9acbb302cae8bf3f",
+        "parentUid" : "93f359dd801397f9a5ed1e38071c960c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589478056628,
+          "stop" : 1589478057622,
+          "duration" : 994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "93f359dd801397f9a5ed1e38071c960c"
+    } ],
+    "uid" : "0c15349447a4f724d28b4644186daa65"
+  } ]
+}

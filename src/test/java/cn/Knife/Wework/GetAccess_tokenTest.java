@@ -2,8 +2,8 @@ package cn.Knife.Wework;
 
 import cn.Knife.Wework.AddressBookManagement.GetAccess_token;
 import org.testng.annotations.Test;
-
 import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.not;
 
 
 /**
@@ -11,7 +11,7 @@ import static org.hamcrest.Matchers.equalTo;
  * @description
  * @createTime 2020-05-07 15:50
  */
-public class GetAccess_tokenTest {
+public class GetAccess_tokenTest extends BaseTest{
     //获取一个GetAccess_token实例对象，才能调用它的方法
     private GetAccess_token getAccess_token = new GetAccess_token();
     private String corpid = "ww2df66b08696343ff";
@@ -36,6 +36,6 @@ public class GetAccess_tokenTest {
         getAccess_token.getToken("", corpsecret).then()
                 .log().all()
                 .statusCode(200)
-                .body("errcode", equalTo(0));
+                .body("errcode", not(equalTo(0)));
     }
 }

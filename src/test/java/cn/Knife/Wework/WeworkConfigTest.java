@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
  * @description
  * @createTime 2020-05-07 21:22
  */
-public class WeworkConfigTest {
+public class WeworkConfigTest extends BaseTest{
 
     private WeworkConfig weworkConfig = new WeworkConfig();
 

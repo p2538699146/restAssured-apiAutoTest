@@ -16,6 +16,7 @@ public class VariablesUtil extends JdbcUtil {
 
     /**
      * 从数据库中获取变量
+     *
      * @return
      */
     public static String getDepartmentName() {

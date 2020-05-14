@@ -1,1 +1,0 @@
-{"uuid":"40a03271-e673-40b1-bd7e-d7970b56134d","name":"Knife-apiAutoTest","children":["e1799d6e-0fb6-4318-b25c-3755297e6b99"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1589204806076,"stop":1589204811897}],"afters":[],"links":[],"start":1589204806029,"stop":1589204813386}

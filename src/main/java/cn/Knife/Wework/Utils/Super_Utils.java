@@ -10,7 +10,6 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.log4j.Logger;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -61,8 +60,8 @@ public class Super_Utils {
             return documentContext.jsonString();
         }
         logger.warn("当前未获取Json模板中的数据！");
-        logger.warn("当前读取模板路径：" + (Objects.nonNull(path) ? path: "NULL"));
-        logger.warn("替换模板内容：" + (Objects.nonNull(parame) ? parame: "NULL"));
+        logger.warn("当前读取模板路径：" + (Objects.nonNull(path) ? path : "NULL"));
+        logger.warn("替换模板内容：" + (Objects.nonNull(parame) ? parame : "NULL"));
         return null;
     }
 

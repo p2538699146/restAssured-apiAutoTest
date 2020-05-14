@@ -1,0 +1,56 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "企业微信-部门管理",
+    "children" : [ {
+      "name" : "部门创建",
+      "children" : [ {
+        "name" : "testCreate",
+        "uid" : "9acbb302cae8bf3f",
+        "parentUid" : "f6ccc8e39ab9fbcd81aff37da466bc90",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589478056628,
+          "stop" : 1589478057622,
+          "duration" : 994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6ccc8e39ab9fbcd81aff37da466bc90"
+    }, {
+      "name" : "testDelete",
+      "uid" : "83f5d3e2150af5a6",
+      "parentUid" : "71c2d8a12d0aee88cc7561500c0adf8d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1589478057722,
+        "stop" : 1589478062584,
+        "duration" : 4862
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "修改部门",
+      "children" : [ {
+        "name" : "testUpdate",
+        "uid" : "8e2444d6af6514b6",
+        "parentUid" : "7c9e182d4ad36d5cfe0cb26f5c0903e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589478062606,
+          "stop" : 1589478066470,
+          "duration" : 3864
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c9e182d4ad36d5cfe0cb26f5c0903e0"
+    } ],
+    "uid" : "71c2d8a12d0aee88cc7561500c0adf8d"
+  } ]
+}

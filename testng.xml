@@ -1,13 +1,36 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Knife_Rest-Assured" thread-count="10" verbose="1">
+<suite name="Knife_Rest-Assured" thread-count="20" verbose="1">
     <test name="部门管理测试">
-       <!-- <classes>
-            <class name="cn.Knife.Wework.DepartmentTest"></class>
-        </classes>-->
+        <classes>
+            <class name="cn.Knife.Wework.DepartmentTest"/>
+        </classes>
     </test>
     <test name="增删除查用户测试">
         <classes>
-        <class name="cn.Knife.Wework.AddressBookManagement.UserTest"></class>
-    </classes>
+            <class name="cn.Knife.Wework.AddressBookManagement.UserTest"/>
+        </classes>
+    </test>
+    <test name="获取token测试">
+        <classes>
+            <class name="cn.Knife.Wework.GetAccess_tokenTest"/>
+        </classes>
+    </test>
+
+    <test name="获取数据库参数作为变量测试">
+        <classes>
+            <class name="cn.Knife.Wework.VariablesTest"/>
+        </classes>
+    </test>
+
+    <test name="企业微信配置文件获取测试">
+        <classes>
+            <class name="cn.Knife.Wework.WeworkConfigTest"/>
+        </classes>
+    </test>
+
+    <test name="登录测试">
+        <classes>
+            <class name="cn.Knife.Wework.WeworkLoginTest"/>
+        </classes>
     </test>
 </suite>

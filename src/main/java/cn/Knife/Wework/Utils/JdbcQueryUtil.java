@@ -1,6 +1,7 @@
 package cn.Knife.Wework.Utils;
 
 import org.apache.log4j.Logger;
+
 import java.io.IOException;
 import java.sql.*;
 import java.util.*;
@@ -134,7 +135,7 @@ public class JdbcQueryUtil extends Super_Utils {
                             }
                         }
 
-                        logger.info("\n当前执行查询sql：" + query_sql
+                        logger.info("\n当前执行查询sql：\n" + query_sql
                                 + "\n查询结果：" + queryValue);
 
                         queryVlues.add(queryValue);

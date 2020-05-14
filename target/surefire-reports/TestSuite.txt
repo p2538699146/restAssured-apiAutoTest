@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 1, Errors: 0, Skipped: 27, Time elapsed: 4.246 s <<< FAILURE! - in TestSuite
+setUp(cn.Knife.Wework.BaseTest)  Time elapsed: 2.944 s  <<< FAILURE!
+java.lang.NullPointerException
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+

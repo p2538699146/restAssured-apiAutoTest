@@ -1,5 +1,9 @@
 D:\Knife-Test\src\test\java\cn\Knife\Wework\DepartmentTest.java
 D:\Knife-Test\src\test\java\cn\Knife\Wework\WeworkLoginTest.java
+D:\Knife-Test\src\test\java\cn\Knife\Wework\VariablesTest.java
+D:\Knife-Test\src\test\java\cn\Knife\Wework\BaseTest.java
+D:\Knife-Test\src\test\java\cn\Knife\Wework\Utils\JdbcUtilTest.java
 D:\Knife-Test\src\test\java\cn\Knife\Wework\WeworkConfigTest.java
+D:\Knife-Test\src\test\java\cn\Knife\Wework\Utils\JdbcQueryUtilTest.java
 D:\Knife-Test\src\test\java\cn\Knife\Wework\AddressBookManagement\UserTest.java
 D:\Knife-Test\src\test\java\cn\Knife\Wework\GetAccess_tokenTest.java

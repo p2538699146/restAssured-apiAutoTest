@@ -1,12 +1,11 @@
 package cn.Knife.Wework.AddressBookManagement;
 
+import cn.Knife.Wework.BaseTest;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Story;
 import io.qameta.allure.TmsLink;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -21,7 +20,7 @@ import static org.hamcrest.Matchers.not;
  * @createTime 2020-05-08 21:46
  */
 @Epic("企业微信-用户管理")
-public class UserTest {
+public class UserTest extends BaseTest{
 
     private static User user;
 
@@ -100,7 +99,7 @@ public class UserTest {
     @Description("删除用户正确业务流程")
     @TmsLink("case_deleteUser_4")
     @Story("删除用户")
-    @Test
+    @BeforeClass
     public void testDelete() {
         String data = user.getSystemDate();
         String userid = "Knife_" + data.substring(8, 14);
@@ -163,7 +162,7 @@ public class UserTest {
 
     @Description("运行后清理测试数据")
     @Story("数据清理")
-    @AfterClass
+    @AfterTest
     public void tearDown() {
         //运行后清理数据
         user.deleteAll();

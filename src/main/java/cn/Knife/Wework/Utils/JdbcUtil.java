@@ -57,10 +57,11 @@ public class JdbcUtil extends JdbcQueryUtil {
 
     /**
      * 执行单条sql查询操作
+     *
      * @param sql
      * @return
      */
-    public static HashMap<String,Object> query(String sql) {
+    public static HashMap<String, Object> query(String sql) {
         List<String> list = Arrays.asList(sql);
         List<HashMap<String, Object>> contens = jdbcQueryAll(list);
         if (Objects.nonNull(contens)) {
@@ -71,6 +72,7 @@ public class JdbcUtil extends JdbcQueryUtil {
 
     /**
      * 执行单条sql修改操作
+     *
      * @param sql
      * @return
      */

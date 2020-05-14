@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-skipped">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,  20 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.GetAccess_tokenTest" hash-for-method="errGetToken">errGetToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.VariablesTest" hash-for-method="getMysqlVariableTest">getMysqlVariableTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.AddressBookManagement.UserTest" hash-for-method="testBatchdelete">testBatchdelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.AddressBookManagement.UserTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.DepartmentTest" hash-for-method="testCreate">testCreate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.DepartmentTest" hash-for-method="testDelete">testDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.AddressBookManagement.UserTest" hash-for-method="testGet">testGet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.GetAccess_tokenTest" hash-for-method="testGetToken">testGetToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.WeworkLoginTest" hash-for-method="testGetToken">testGetToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.Utils.JdbcQueryUtilTest" hash-for-method="testJdbcQueryAndUpdate">testJdbcQueryAndUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.AddressBookManagement.UserTest" hash-for-method="testList">testList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.Utils.JdbcUtilTest" hash-for-method="testQuery">testQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.Utils.JdbcUtilTest" hash-for-method="testQueryAll">testQueryAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.AddressBookManagement.UserTest" hash-for-method="testSimplelist">testSimplelist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.Utils.JdbcUtilTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.DepartmentTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.Utils.JdbcQueryUtilTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.AddressBookManagement.UserTest" hash-for-method="testUpdate">testUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.Utils.JdbcUtilTest" hash-for-method="testUpdateAll">testUpdateAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="cn.Knife.Wework.WeworkConfigTest" hash-for-method="yamlTest">yamlTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">cn.Knife.Wework.WeworkConfigTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="yamlTest">
+                  </a> <!-- yamlTest -->
+                  <span class="method-name">yamlTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">cn.Knife.Wework.Utils.JdbcQueryUtilTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJdbcQueryAndUpdate">
+                  </a> <!-- testJdbcQueryAndUpdate -->
+                  <span class="method-name">testJdbcQueryAndUpdate</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">cn.Knife.Wework.WeworkLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetToken">
+                  </a> <!-- testGetToken -->
+                  <span class="method-name">testGetToken</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">cn.Knife.Wework.VariablesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getMysqlVariableTest">
+                  </a> <!-- getMysqlVariableTest -->
+                  <span class="method-name">getMysqlVariableTest</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">cn.Knife.Wework.GetAccess_tokenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="errGetToken">
+                  </a> <!-- errGetToken -->
+                  <span class="method-name">errGetToken</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(获取token异常测试)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetToken">
+                  </a> <!-- testGetToken -->
+                  <span class="method-name">testGetToken</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(获取token)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">cn.Knife.Wework.AddressBookManagement.UserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBatchdelete">
+                  </a> <!-- testBatchdelete -->
+                  <span class="method-name">testBatchdelete</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGet">
+                  </a> <!-- testGet -->
+                  <span class="method-name">testGet</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testList">
+                  </a> <!-- testList -->
+                  <span class="method-name">testList</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimplelist">
+                  </a> <!-- testSimplelist -->
+                  <span class="method-name">testSimplelist</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">cn.Knife.Wework.Utils.JdbcUtilTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testQuery">
+                  </a> <!-- testQuery -->
+                  <span class="method-name">testQuery</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testQueryAll">
+                  </a> <!-- testQueryAll -->
+                  <span class="method-name">testQueryAll</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateAll">
+                  </a> <!-- testUpdateAll -->
+                  <span class="method-name">testUpdateAll</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">cn.Knife.Wework.DepartmentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreate">
+                  </a> <!-- testCreate -->
+                  <span class="method-name">testCreate</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDelete">
+                  </a> <!-- testDelete -->
+                  <span class="method-name">testDelete</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdate">
+                  </a> <!-- testUpdate -->
+                  <span class="method-name">testUpdate</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at cn.Knife.Wework.Utils.OutputDos.delAllureResults(OutputDos.java:34)
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;cn.Knife.Wework.AddressBookManagement.UserTest&quot;/&gt;
+      &lt;class name=&quot;cn.Knife.Wework.BaseTest&quot;/&gt;
+      &lt;class name=&quot;cn.Knife.Wework.DepartmentTest&quot;/&gt;
+      &lt;class name=&quot;cn.Knife.Wework.GetAccess_tokenTest&quot;/&gt;
+      &lt;class name=&quot;cn.Knife.Wework.Utils.JdbcQueryUtilTest&quot;/&gt;
+      &lt;class name=&quot;cn.Knife.Wework.Utils.JdbcUtilTest&quot;/&gt;
+      &lt;class name=&quot;cn.Knife.Wework.VariablesTest&quot;/&gt;
+      &lt;class name=&quot;cn.Knife.Wework.WeworkConfigTest&quot;/&gt;
+      &lt;class name=&quot;cn.Knife.Wework.WeworkLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGet')
+data.setCell(0, 2, 'cn.Knife.Wework.AddressBookManagement.UserTest')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGetToken')
+data.setCell(1, 2, 'cn.Knife.Wework.GetAccess_tokenTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testQuery')
+data.setCell(2, 2, 'cn.Knife.Wework.Utils.JdbcUtilTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testList')
+data.setCell(3, 2, 'cn.Knife.Wework.AddressBookManagement.UserTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testBatchdelete')
+data.setCell(4, 2, 'cn.Knife.Wework.AddressBookManagement.UserTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCreate')
+data.setCell(5, 2, 'cn.Knife.Wework.AddressBookManagement.UserTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testDelete')
+data.setCell(6, 2, 'cn.Knife.Wework.DepartmentTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'errGetToken')
+data.setCell(7, 2, 'cn.Knife.Wework.GetAccess_tokenTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCreate')
+data.setCell(8, 2, 'cn.Knife.Wework.DepartmentTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGetToken')
+data.setCell(9, 2, 'cn.Knife.Wework.WeworkLoginTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSimplelist')
+data.setCell(10, 2, 'cn.Knife.Wework.AddressBookManagement.UserTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testUpdate')
+data.setCell(11, 2, 'cn.Knife.Wework.Utils.JdbcUtilTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testUpdateAll')
+data.setCell(12, 2, 'cn.Knife.Wework.Utils.JdbcUtilTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'yamlTest')
+data.setCell(13, 2, 'cn.Knife.Wework.WeworkConfigTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getMysqlVariableTest')
+data.setCell(14, 2, 'cn.Knife.Wework.VariablesTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testQueryAll')
+data.setCell(15, 2, 'cn.Knife.Wework.Utils.JdbcUtilTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testUpdate')
+data.setCell(16, 2, 'cn.Knife.Wework.DepartmentTest')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testJdbcQueryAndUpdate')
+data.setCell(17, 2, 'cn.Knife.Wework.Utils.JdbcQueryUtilTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testUpdate')
+data.setCell(18, 2, 'cn.Knife.Wework.Utils.JdbcQueryUtilTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testUpdate')
+data.setCell(19, 2, 'cn.Knife.Wework.AddressBookManagement.UserTest')
+data.setCell(19, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">7 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">cn.Knife.Wework.WeworkConfigTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">cn.Knife.Wework.WeworkLoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">cn.Knife.Wework.VariablesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">cn.Knife.Wework.GetAccess_tokenTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">cn.Knife.Wework.DepartmentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDelete</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cn.Knife.Wework.AddressBookManagement.UserTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBatchdelete</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreate</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGet</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testList</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSimplelist</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cn.Knife.Wework.GetAccess_tokenTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">errGetToken</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetToken</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cn.Knife.Wework.Utils.JdbcQueryUtilTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testJdbcQueryAndUpdate</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cn.Knife.Wework.Utils.JdbcUtilTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testQuery</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testQueryAll</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdate</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateAll</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cn.Knife.Wework.VariablesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getMysqlVariableTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cn.Knife.Wework.WeworkConfigTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">yamlTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cn.Knife.Wework.WeworkLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetToken</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">cn.Knife.Wework.BaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

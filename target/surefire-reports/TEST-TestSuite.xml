@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="4.246" tests="28" errors="0" skipped="27" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Knife-Test"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Knife-Test"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\tools\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;D:\tools\apache-maven-3.6.3\bin;D:\tools\apache-tomcat-8.0.26\lib;D:\tools\apache-tomcat-8.0.26\lib\servlet-api.jar;D:\tools\apache-tomcat-8.0.26\lib\jsp-api.jar;D:\tools\android-sdk-windows\platform-tools;D:\tools\android-sdk-windows\tools;D:\tools\android-sdk-windows\build-tools;D:\tools\apache-tomcat-8.0.26\lib;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\tools\;D:\tools\allure-2.10.0\bin;D:\Applications\Scoop\shims;C:\Users\Administrator\scoop\shims;C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python38-32\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;D:\Program Files\JetBrains\PyCharm 2019.2.4\bin;D:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\bin;;C:\Users\Administrator\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="D:\tools\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\tools\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="D:\tools\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\tools\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="setUp" classname="cn.Knife.Wework.BaseTest" time="2.944">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at cn.Knife.Wework.BaseTest.setUp(BaseTest.java:28)
+</failure>
+    <system-out><![CDATA[D:\Knife-Test\target\allure-results
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="cn.Knife.Wework.DepartmentTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCreate" classname="cn.Knife.Wework.DepartmentTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDelete" classname="cn.Knife.Wework.DepartmentTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdate" classname="cn.Knife.Wework.DepartmentTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="cn.Knife.Wework.DepartmentTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="cn.Knife.Wework.AddressBookManagement.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDelete" classname="cn.Knife.Wework.AddressBookManagement.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testBatchdelete" classname="cn.Knife.Wework.AddressBookManagement.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCreate" classname="cn.Knife.Wework.AddressBookManagement.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGet" classname="cn.Knife.Wework.AddressBookManagement.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testList" classname="cn.Knife.Wework.AddressBookManagement.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testSimplelist" classname="cn.Knife.Wework.AddressBookManagement.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdate" classname="cn.Knife.Wework.AddressBookManagement.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="errGetToken" classname="cn.Knife.Wework.GetAccess_tokenTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGetToken" classname="cn.Knife.Wework.GetAccess_tokenTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testJdbcQueryAndUpdate" classname="cn.Knife.Wework.Utils.JdbcQueryUtilTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdate" classname="cn.Knife.Wework.Utils.JdbcQueryUtilTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testQuery" classname="cn.Knife.Wework.Utils.JdbcUtilTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testQueryAll" classname="cn.Knife.Wework.Utils.JdbcUtilTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdate" classname="cn.Knife.Wework.Utils.JdbcUtilTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUpdateAll" classname="cn.Knife.Wework.Utils.JdbcUtilTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="cn.Knife.Wework.VariablesTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getMysqlVariableTest" classname="cn.Knife.Wework.VariablesTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="yamlTest" classname="cn.Knife.Wework.WeworkConfigTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGetToken" classname="cn.Knife.Wework.WeworkLoginTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="cn.Knife.Wework.AddressBookManagement.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="cn.Knife.Wework.BaseTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

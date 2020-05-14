@@ -24,6 +24,7 @@ public class Rest_Info extends Super_Utils {
 
     /**
      * 如果rest_info为空则返回new一个
+     *
      * @return
      */
     public static Rest_Info getInstance() {

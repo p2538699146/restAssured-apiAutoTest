@@ -28,7 +28,7 @@ public class Department extends Rest_Perfect {
     public Response create(String name, String name_en, String parentid, String order, String id) {
         //将参数都添加到map
         HashMap<String, Object> parame = new HashMap() {{
-            put("name",name);
+            put("name", name);
             put("name_en", name_en);
             put("parentid", parentid);
             put("order", order);
@@ -36,8 +36,8 @@ public class Department extends Rest_Perfect {
         }};
 
         String body = JSON.toJSONString(parame);
-        return getResponseFromYaml("/department/create.yaml",new HashMap<String, Object>(){{
-            put("$.body",body);
+        return getResponseFromYaml("/department/create.yaml", new HashMap<String, Object>() {{
+            put("$.body", body);
         }});
     }
 
@@ -76,7 +76,7 @@ public class Department extends Rest_Perfect {
      */
     public Response delete(String id) {
         return getDefaultRequestSpecification()
-                .queryParam("id",id)
+                .queryParam("id", id)
                 .when().get("https://qyapi.weixin.qq.com/cgi-bin/department/delete")
                 .then()
                 .extract().response();
@@ -98,6 +98,7 @@ public class Department extends Rest_Perfect {
 
     /**
      * 删除所有部门
+     *
      * @return
      */
     public Response deleteAll() {

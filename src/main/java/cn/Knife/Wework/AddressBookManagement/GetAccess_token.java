@@ -15,8 +15,9 @@ public class GetAccess_token {
 
     /**
      * 获取wework的access_token
-     * @param corpid  企业id
-     * @param corpsecret    应用密钥
+     *
+     * @param corpid     企业id
+     * @param corpsecret 应用密钥
      * @return
      */
     public Response getToken(String corpid, String corpsecret) {

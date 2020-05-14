@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="cn.Knife.Wework.WeworkConfigTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="yamlTest"/>
+        </methods>
+      </class> <!-- cn.Knife.Wework.WeworkConfigTest -->
+      <class name="cn.Knife.Wework.Utils.JdbcQueryUtilTest">
+        <methods>
+          <include name="testJdbcQueryAndUpdate"/>
+          <include name="testUpdate"/>
+        </methods>
+      </class> <!-- cn.Knife.Wework.Utils.JdbcQueryUtilTest -->
+      <class name="cn.Knife.Wework.WeworkLoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testGetToken"/>
+        </methods>
+      </class> <!-- cn.Knife.Wework.WeworkLoginTest -->
+      <class name="cn.Knife.Wework.VariablesTest">
+        <methods>
+          <include name="getMysqlVariableTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- cn.Knife.Wework.VariablesTest -->
+      <class name="cn.Knife.Wework.GetAccess_tokenTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testGetToken"/>
+          <include name="errGetToken"/>
+        </methods>
+      </class> <!-- cn.Knife.Wework.GetAccess_tokenTest -->
+      <class name="cn.Knife.Wework.AddressBookManagement.UserTest">
+        <methods>
+          <include name="testCreate"/>
+          <include name="testSimplelist"/>
+          <include name="testBatchdelete"/>
+          <include name="testDelete"/>
+          <include name="setUp"/>
+          <include name="testList"/>
+          <include name="testGet"/>
+          <include name="tearDown"/>
+          <include name="testUpdate"/>
+        </methods>
+      </class> <!-- cn.Knife.Wework.AddressBookManagement.UserTest -->
+      <class name="cn.Knife.Wework.Utils.JdbcUtilTest">
+        <methods>
+          <include name="testQueryAll"/>
+          <include name="testQuery"/>
+          <include name="testUpdateAll"/>
+          <include name="testUpdate"/>
+        </methods>
+      </class> <!-- cn.Knife.Wework.Utils.JdbcUtilTest -->
+      <class name="cn.Knife.Wework.DepartmentTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testUpdate"/>
+          <include name="testDelete"/>
+          <include name="testCreate"/>
+        </methods>
+      </class> <!-- cn.Knife.Wework.DepartmentTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

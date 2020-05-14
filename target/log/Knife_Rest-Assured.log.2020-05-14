@@ -1,0 +1,328 @@
+2020-05-14 22:58:38 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 22:58:38 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 22:58:41 Method: cn.Knife.Wework.Utils.Super_Utils.YamlFactoryIsReadYamlAndWriterYaml(Super_Utils.java:183) - [ INFO ] -> 当前操作状态：读取
+2020-05-14 22:58:51 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 22:58:51 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 22:58:52 Method: cn.Knife.Wework.VariablesStore.VariablesUtil.getDepartmentName(VariablesUtil.java:24) - [ INFO ] -> 开始从数据库获取变量！
+2020-05-14 22:58:52 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:175) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-14 22:58:52 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:95) - [ INFO ] -> 开始执行查询操作！
+2020-05-14 22:58:52 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:138) - [ INFO ] -> 
+当前执行查询sql：
+select  api_Name from apiautotestparamter where case_Id = 1
+查询结果：{api_Name=批量修改测试1}
+2020-05-14 22:58:52 Method: cn.Knife.Wework.VariablesStore.VariablesUtil.getDepartmentName(VariablesUtil.java:29) - [ INFO ] -> 获取到的变量值：批量修改测试1
+2020-05-14 22:58:52 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:95) - [ INFO ] -> 开始执行查询操作！
+2020-05-14 22:58:52 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:138) - [ INFO ] -> 
+当前执行查询sql：
+select api_Name from apiautotestparamter where case_Id = 8;
+查询结果：{api_Name=0}
+2020-05-14 22:58:53 Method: cn.Knife.Wework.Utils.Super_Utils.updateFromYamlRest_Info(Super_Utils.java:153) - [ INFO ] -> 当前参数获取方式：从parame中取出body
+2020-05-14 22:58:53 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 22:58:53 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 22:58:58 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:202) - [ ERROR ] -> 请检查路径，获取json文件内容！
+2020-05-14 22:58:58 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:203) - [ ERROR ] -> 报错内容：java.io.FileNotFoundException: D:\Knife-Test\target\test-classes\allure-report\data\suites.json (系统找不到指定的路径。)
+2020-05-14 22:58:58 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:205) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:03:06 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 23:03:06 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 23:03:08 Method: cn.Knife.Wework.Utils.Super_Utils.YamlFactoryIsReadYamlAndWriterYaml(Super_Utils.java:183) - [ INFO ] -> 当前操作状态：读取
+2020-05-14 23:10:38 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 23:10:38 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 23:10:41 Method: cn.Knife.Wework.Utils.Super_Utils.YamlFactoryIsReadYamlAndWriterYaml(Super_Utils.java:183) - [ INFO ] -> 当前操作状态：读取
+2020-05-14 23:10:55 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 23:10:55 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 23:10:56 Method: cn.Knife.Wework.VariablesStore.VariablesUtil.getDepartmentName(VariablesUtil.java:24) - [ INFO ] -> 开始从数据库获取变量！
+2020-05-14 23:10:56 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:175) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-14 23:10:57 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:95) - [ INFO ] -> 开始执行查询操作！
+2020-05-14 23:10:57 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:138) - [ INFO ] -> 
+当前执行查询sql：
+select  api_Name from apiautotestparamter where case_Id = 1
+查询结果：{api_Name=批量修改测试1}
+2020-05-14 23:10:57 Method: cn.Knife.Wework.VariablesStore.VariablesUtil.getDepartmentName(VariablesUtil.java:29) - [ INFO ] -> 获取到的变量值：批量修改测试1
+2020-05-14 23:10:57 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:95) - [ INFO ] -> 开始执行查询操作！
+2020-05-14 23:10:57 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:138) - [ INFO ] -> 
+当前执行查询sql：
+select api_Name from apiautotestparamter where case_Id = 8;
+查询结果：{api_Name=0}
+2020-05-14 23:10:57 Method: cn.Knife.Wework.Utils.Super_Utils.updateFromYamlRest_Info(Super_Utils.java:153) - [ INFO ] -> 当前参数获取方式：从parame中取出body
+2020-05-14 23:10:57 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 23:10:57 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 23:11:04 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:220) - [ ERROR ] -> 请检查路径，获取json文件内容！
+2020-05-14 23:11:04 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:221) - [ ERROR ] -> 报错内容：java.io.FileNotFoundException: D:\Knife-Test\target\test-classes\allure-report\data\suites.json (系统找不到指定的路径。)
+2020-05-14 23:11:04 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:223) - [ WARN ] -> 未获取到suite.json内容！
+2020-05-14 23:11:04 Method: cn.Knife.Wework.Utils.Rest_Perfect.getFormatDateTime(Rest_Perfect.java:75) - [ INFO ] -> 当前系统时间：Thu May 14 23:11:04 CST 2020
+2020-05-14 23:14:14 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 23:14:14 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 23:14:18 Method: cn.Knife.Wework.Utils.Super_Utils.YamlFactoryIsReadYamlAndWriterYaml(Super_Utils.java:183) - [ INFO ] -> 当前操作状态：读取
+2020-05-14 23:14:28 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 23:14:28 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 23:14:31 Method: cn.Knife.Wework.VariablesStore.VariablesUtil.getDepartmentName(VariablesUtil.java:24) - [ INFO ] -> 开始从数据库获取变量！
+2020-05-14 23:14:31 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:175) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-14 23:14:32 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:95) - [ INFO ] -> 开始执行查询操作！
+2020-05-14 23:14:32 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:138) - [ INFO ] -> 
+当前执行查询sql：
+select  api_Name from apiautotestparamter where case_Id = 1
+查询结果：{api_Name=批量修改测试1}
+2020-05-14 23:14:32 Method: cn.Knife.Wework.VariablesStore.VariablesUtil.getDepartmentName(VariablesUtil.java:29) - [ INFO ] -> 获取到的变量值：批量修改测试1
+2020-05-14 23:14:32 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:95) - [ INFO ] -> 开始执行查询操作！
+2020-05-14 23:14:32 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:138) - [ INFO ] -> 
+当前执行查询sql：
+select api_Name from apiautotestparamter where case_Id = 8;
+查询结果：{api_Name=0}
+2020-05-14 23:14:32 Method: cn.Knife.Wework.Utils.Super_Utils.updateFromYamlRest_Info(Super_Utils.java:153) - [ INFO ] -> 当前参数获取方式：从parame中取出body
+2020-05-14 23:14:32 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 23:14:32 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 23:14:38 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:218) - [ ERROR ] -> 请检查路径，获取json文件内容！
+2020-05-14 23:14:38 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:219) - [ ERROR ] -> 报错内容：java.io.FileNotFoundException: D:\Knife-Test\target\test-classes\D:\Knife-Test\target\test-classes\allure-report\data\suites.json (文件名、目录名或卷标语法不正确。)
+2020-05-14 23:14:38 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:221) - [ WARN ] -> 未获取到suite.json内容！
+2020-05-14 23:14:38 Method: cn.Knife.Wework.Utils.Rest_Perfect.getFormatDateTime(Rest_Perfect.java:75) - [ INFO ] -> 当前系统时间：Thu May 14 23:14:38 CST 2020
+2020-05-14 23:15:32 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 23:15:32 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 23:15:35 Method: cn.Knife.Wework.Utils.Super_Utils.YamlFactoryIsReadYamlAndWriterYaml(Super_Utils.java:183) - [ INFO ] -> 当前操作状态：读取
+2020-05-14 23:15:41 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 23:15:42 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 23:15:42 Method: cn.Knife.Wework.VariablesStore.VariablesUtil.getDepartmentName(VariablesUtil.java:24) - [ INFO ] -> 开始从数据库获取变量！
+2020-05-14 23:15:42 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:175) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-14 23:15:43 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:95) - [ INFO ] -> 开始执行查询操作！
+2020-05-14 23:15:43 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:138) - [ INFO ] -> 
+当前执行查询sql：
+select  api_Name from apiautotestparamter where case_Id = 1
+查询结果：{api_Name=批量修改测试1}
+2020-05-14 23:15:43 Method: cn.Knife.Wework.VariablesStore.VariablesUtil.getDepartmentName(VariablesUtil.java:29) - [ INFO ] -> 获取到的变量值：批量修改测试1
+2020-05-14 23:15:43 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:95) - [ INFO ] -> 开始执行查询操作！
+2020-05-14 23:15:43 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:138) - [ INFO ] -> 
+当前执行查询sql：
+select api_Name from apiautotestparamter where case_Id = 8;
+查询结果：{api_Name=0}
+2020-05-14 23:15:43 Method: cn.Knife.Wework.Utils.Super_Utils.updateFromYamlRest_Info(Super_Utils.java:153) - [ INFO ] -> 当前参数获取方式：从parame中取出body
+2020-05-14 23:15:43 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 23:15:43 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 23:15:50 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:214) - [ ERROR ] -> 请检查路径，获取json文件内容！
+2020-05-14 23:15:50 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:215) - [ ERROR ] -> 报错内容：java.io.FileNotFoundException: D:\Knife-Test\target\test-classes\allure-report\data\suites.json (系统找不到指定的路径。)
+2020-05-14 23:15:50 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:217) - [ WARN ] -> 未获取到suite.json内容！
+2020-05-14 23:15:50 Method: cn.Knife.Wework.Utils.Rest_Perfect.getFormatDateTime(Rest_Perfect.java:75) - [ INFO ] -> 当前系统时间：Thu May 14 23:15:50 CST 2020
+2020-05-14 23:17:01 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 23:17:01 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 23:17:04 Method: cn.Knife.Wework.Utils.Super_Utils.YamlFactoryIsReadYamlAndWriterYaml(Super_Utils.java:183) - [ INFO ] -> 当前操作状态：读取
+2020-05-14 23:17:13 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 23:17:13 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 23:17:14 Method: cn.Knife.Wework.VariablesStore.VariablesUtil.getDepartmentName(VariablesUtil.java:24) - [ INFO ] -> 开始从数据库获取变量！
+2020-05-14 23:17:14 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:175) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-14 23:17:14 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:95) - [ INFO ] -> 开始执行查询操作！
+2020-05-14 23:17:14 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:138) - [ INFO ] -> 
+当前执行查询sql：
+select  api_Name from apiautotestparamter where case_Id = 1
+查询结果：{api_Name=批量修改测试1}
+2020-05-14 23:17:14 Method: cn.Knife.Wework.VariablesStore.VariablesUtil.getDepartmentName(VariablesUtil.java:29) - [ INFO ] -> 获取到的变量值：批量修改测试1
+2020-05-14 23:17:14 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:95) - [ INFO ] -> 开始执行查询操作！
+2020-05-14 23:17:14 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:138) - [ INFO ] -> 
+当前执行查询sql：
+select api_Name from apiautotestparamter where case_Id = 8;
+查询结果：{api_Name=0}
+2020-05-14 23:17:15 Method: cn.Knife.Wework.Utils.Super_Utils.updateFromYamlRest_Info(Super_Utils.java:153) - [ INFO ] -> 当前参数获取方式：从parame中取出body
+2020-05-14 23:17:15 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:29) - [ INFO ] -> 开始初始化RequestSpecification
+2020-05-14 23:17:15 Method: cn.Knife.Wework.Utils.Rest_Perfect.getDefaultRequestSpecification(Rest_Perfect.java:31) - [ INFO ] -> 
+              ____  __.        .__   _____                        
+  /\|\/\       |    |/ _|  ____  |__|_/ ____\  ____        /\|\/\   
+ _)    (__     |      <   /    \ |  |\   __\ _/ __ \      _)    (__ 
+ \_     _/     |    |  \ |   |  \|  | |  |   \  ___/      \_     _/ 
+   )    \   /\ |____|__ \|___|  /|__| |__|    \___  > /\    )    \  
+   \/\|\/   \/         \/     \/                  \/  \/    \/\|\/  
+2020-05-14 23:17:21 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:214) - [ ERROR ] -> 请检查路径，获取json文件内容！
+2020-05-14 23:17:21 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:215) - [ ERROR ] -> 报错内容：java.io.FileNotFoundException: D:\Knife-Test\target\test-classes\allure-report\data\suites.json (系统找不到指定的路径。)
+2020-05-14 23:17:21 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:217) - [ WARN ] -> 未获取到suite.json内容！
+2020-05-14 23:17:21 Method: cn.Knife.Wework.Utils.Rest_Perfect.getFormatDateTime(Rest_Perfect.java:75) - [ INFO ] -> 当前系统时间：Thu May 14 23:17:21 CST 2020
+2020-05-14 23:18:31 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:205) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:18:32 Method: cn.Knife.Wework.Utils.Rest_Perfect.getFormatDateTime(Rest_Perfect.java:75) - [ INFO ] -> 当前系统时间：Thu May 14 23:18:32 CST 2020
+2020-05-14 23:18:35 Method: cn.Knife.Wework.Utils.SendEmail.send(SendEmail.java:140) - [ INFO ] -> 
+邮件主题：2020月05月14日 231832 自动化测试报告
+邮件内容：
+收件人邮箱：2538699146@qq.com
+****************************邮件发送成功****************************
+2020-05-14 23:20:04 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:214) - [ ERROR ] -> 请检查路径，获取json文件内容！
+2020-05-14 23:20:04 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:215) - [ ERROR ] -> 报错内容：java.io.FileNotFoundException: D:\Knife-Test\target\target\allure-report\data\suites.json (系统找不到指定的路径。)
+2020-05-14 23:20:04 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:217) - [ WARN ] -> 未获取到suite.json内容！
+2020-05-14 23:20:04 Method: cn.Knife.Wework.Utils.Rest_Perfect.getFormatDateTime(Rest_Perfect.java:75) - [ INFO ] -> 当前系统时间：Thu May 14 23:20:04 CST 2020
+2020-05-14 23:20:43 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:205) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:20:43 Method: cn.Knife.Wework.Utils.Rest_Perfect.getFormatDateTime(Rest_Perfect.java:75) - [ INFO ] -> 当前系统时间：Thu May 14 23:20:43 CST 2020
+2020-05-14 23:20:43 Method: cn.Knife.Wework.Utils.SendEmail.send(SendEmail.java:140) - [ INFO ] -> 
+邮件主题：2020月05月14日 232043 自动化测试报告
+邮件内容：
+收件人邮箱：2538699146@qq.com
+****************************邮件发送成功****************************
+2020-05-14 23:22:13 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:205) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:22:13 Method: cn.Knife.Wework.Utils.Rest_Perfect.getFormatDateTime(Rest_Perfect.java:75) - [ INFO ] -> 当前系统时间：Thu May 14 23:22:13 CST 2020
+2020-05-14 23:22:13 Method: cn.Knife.Wework.Utils.SendEmail.send(SendEmail.java:140) - [ INFO ] -> 
+邮件主题：2020月05月14日 232213 自动化测试报告
+邮件内容：
+收件人邮箱：2538699146@qq.com
+****************************邮件发送成功****************************
+2020-05-14 23:22:43 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:206) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:22:44 Method: cn.Knife.Wework.Utils.Rest_Perfect.getFormatDateTime(Rest_Perfect.java:75) - [ INFO ] -> 当前系统时间：Thu May 14 23:22:44 CST 2020
+2020-05-14 23:22:44 Method: cn.Knife.Wework.Utils.SendEmail.send(SendEmail.java:140) - [ INFO ] -> 
+邮件主题：2020月05月14日 232244 自动化测试报告
+邮件内容：
+收件人邮箱：2538699146@qq.com
+****************************邮件发送成功****************************
+2020-05-14 23:24:22 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:206) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:24:22 Method: cn.Knife.Wework.Utils.Rest_Perfect.getFormatDateTime(Rest_Perfect.java:75) - [ INFO ] -> 当前系统时间：Thu May 14 23:24:22 CST 2020
+2020-05-14 23:24:22 Method: cn.Knife.Wework.Utils.SendEmail.send(SendEmail.java:140) - [ INFO ] -> 
+邮件主题：2020月05月14日 232422 自动化测试报告
+邮件内容：
+收件人邮箱：2538699146@qq.com
+****************************邮件发送成功****************************
+2020-05-14 23:25:27 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:206) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:25:28 Method: cn.Knife.Wework.Utils.Rest_Perfect.getFormatDateTime(Rest_Perfect.java:75) - [ INFO ] -> 当前系统时间：Thu May 14 23:25:28 CST 2020
+2020-05-14 23:25:28 Method: cn.Knife.Wework.Utils.SendEmail.send(SendEmail.java:140) - [ INFO ] -> 
+邮件主题：2020月05月14日 232528 自动化测试报告
+邮件内容：
+收件人邮箱：2538699146@qq.com
+****************************邮件发送成功****************************
+2020-05-14 23:29:18 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:219) - [ ERROR ] -> 请检查路径，获取json文件内容！
+2020-05-14 23:29:18 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:220) - [ ERROR ] -> 报错内容：com.alibaba.fastjson.JSONException: can not cast to JSONObject.
+2020-05-14 23:29:18 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:222) - [ WARN ] -> 未获取到suite.json内容！
+2020-05-14 23:29:18 Method: cn.Knife.Wework.Utils.Rest_Perfect.getFormatDateTime(Rest_Perfect.java:75) - [ INFO ] -> 当前系统时间：Thu May 14 23:29:18 CST 2020
+2020-05-14 23:30:38 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:221) - [ ERROR ] -> 请检查路径，获取json文件内容！
+2020-05-14 23:30:38 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:222) - [ ERROR ] -> 报错内容：com.alibaba.fastjson.JSONException: can not cast to JSONObject.
+2020-05-14 23:30:38 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:224) - [ WARN ] -> 未获取到suite.json内容！
+2020-05-14 23:31:23 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:221) - [ ERROR ] -> 请检查路径，获取json文件内容！
+2020-05-14 23:31:23 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:222) - [ ERROR ] -> 报错内容：com.alibaba.fastjson.JSONException: can not cast to JSONObject.
+2020-05-14 23:31:23 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:225) - [ WARN ] -> 未获取到suite.json内容！
+2020-05-14 23:33:19 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:222) - [ ERROR ] -> 请检查路径，获取json文件内容！
+2020-05-14 23:33:19 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:223) - [ ERROR ] -> 报错内容：com.alibaba.fastjson.JSONException: can not cast to JSONObject.
+2020-05-14 23:33:19 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:226) - [ WARN ] -> 未获取到suite.json内容！
+2020-05-14 23:38:13 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:228) - [ ERROR ] -> 请检查路径，获取json文件内容！
+2020-05-14 23:38:13 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:229) - [ ERROR ] -> 报错内容：com.alibaba.fastjson.JSONException: can not cast to JSONObject.
+2020-05-14 23:38:13 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:232) - [ WARN ] -> 未获取到suite.json内容！
+2020-05-14 23:39:36 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:227) - [ ERROR ] -> 请检查路径，获取json文件内容！
+2020-05-14 23:39:36 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:228) - [ ERROR ] -> 报错内容：com.alibaba.fastjson.JSONException: can not cast to JSONObject.
+2020-05-14 23:39:36 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:231) - [ WARN ] -> 未获取到suite.json内容！
+2020-05-14 23:39:57 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:226) - [ ERROR ] -> 请检查路径，获取json文件内容！
+2020-05-14 23:39:57 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:227) - [ ERROR ] -> 报错内容：com.alibaba.fastjson.JSONException: can not cast to JSONObject.
+2020-05-14 23:39:57 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:230) - [ WARN ] -> 未获取到suite.json内容！
+2020-05-14 23:42:03 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:215) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:42:33 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:216) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:42:33 Method: cn.Knife.Wework.Utils.Rest_Perfect.getFormatDateTime(Rest_Perfect.java:75) - [ INFO ] -> 当前系统时间：Thu May 14 23:42:33 CST 2020
+2020-05-14 23:42:33 Method: cn.Knife.Wework.Utils.SendEmail.send(SendEmail.java:142) - [ INFO ] -> 
+邮件主题：2020月05月14日 234233 自动化测试报告
+邮件内容：
+收件人邮箱：2538699146@qq.com
+****************************邮件发送成功****************************
+2020-05-14 23:43:48 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:217) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:45:00 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:217) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:46:04 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:219) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:47:16 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:225) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:49:47 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:226) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:50:27 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:227) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:56:37 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:216) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:58:56 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:218) - [ INFO ] -> allure-report解析成功
+2020-05-14 23:59:51 Method: cn.Knife.Wework.Utils.SendEmail.getAllureResult(SendEmail.java:221) - [ INFO ] -> allure-report解析成功

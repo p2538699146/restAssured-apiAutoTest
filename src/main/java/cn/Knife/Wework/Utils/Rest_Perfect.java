@@ -52,12 +52,26 @@ public class Rest_Perfect extends JdbcUtil {
     }
 
     /**
-     * 获取当前系统时间
+     * 获取当前系统时间，纯数字
      *
      * @return
      */
     public String getSystemDate() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
+        Date date = new Date();
+
+        logger.info("当前系统时间：" + date);
+        return dateFormat.format(date);
+    }
+
+
+    /**
+     * 获取年-月-日系统时间
+     *
+     * @return
+     */
+    public static String getFormatDateTime() {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy月MM月dd日 HH:mm:ss");
         Date date = new Date();
 
         logger.info("当前系统时间：" + date);

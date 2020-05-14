@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nJSON path errcode doesn't match.\nExpected: <1>\n  Actual: 0\n",
+      "children" : [ {
+        "name" : "testCreate",
+        "uid" : "9acbb302cae8bf3f",
+        "parentUid" : "8ef1201577c80096405fc2762bf01e32",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589478056628,
+          "stop" : 1589478057622,
+          "duration" : 994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testDelete",
+        "uid" : "83f5d3e2150af5a6",
+        "parentUid" : "8ef1201577c80096405fc2762bf01e32",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589478057722,
+          "stop" : 1589478062584,
+          "duration" : 4862
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ef1201577c80096405fc2762bf01e32"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

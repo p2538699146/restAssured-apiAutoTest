@@ -15,7 +15,7 @@ import static org.hamcrest.Matchers.hasItems;
  * @createTime 2020-05-07 17:52
  */
 @Epic("企业微信-部门管理")   //模块
-public class DepartmentTest {
+public class DepartmentTest extends BaseTest {
 
     private static Department department;
 
@@ -122,8 +122,9 @@ public class DepartmentTest {
         department.delete(idTwo).then().body("errcode", equalTo(0));
     }
 
-    @AfterClass(description = "运行后，清理数据")
+
     @Story("运行后清理数据，创建一个部门")
+    @AfterClass(description = "运行后，清理数据")
     public void tearDown() {
         //运行结束清理数据
         department.deleteAll();
