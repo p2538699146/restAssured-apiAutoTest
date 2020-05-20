@@ -18,8 +18,8 @@ public class JdbcUtilTest {
 
     @Test
     public void testQuery() {
-        String sql = "select * from apiautotestparamter where case_id = 6;";
-        HashMap<String, Object> query = jdbcUtil.query(sql);
+        String sql = "select * from apiautotestparamter where case_id = ? and api_Name = ?;";
+        HashMap<String, Object> query = jdbcUtil.query(sql,1,"批量修改测试1");
         System.out.println(query);
     }
 

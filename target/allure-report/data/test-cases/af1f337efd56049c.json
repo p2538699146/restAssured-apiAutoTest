@@ -1,0 +1,78 @@
+{
+  "uid" : "af1f337efd56049c",
+  "name" : "jdbcUtilArgsTest",
+  "fullName" : "cn.Knife.Wework.VariablesTest.jdbcUtilArgsTest",
+  "historyId" : "b6c0f92db403dce4ec3d33fc076580db",
+  "time" : {
+    "start" : 1590000814299,
+    "stop" : 1590000814658,
+    "duration" : 359
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1590000803817,
+      "stop" : 1590000814086,
+      "duration" : 10269
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "cn.Knife.Wework.VariablesTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cn.Knife.Wework.VariablesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "jdbcUtilArgsTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Knife-apiAutoTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "cn.Knife.Wework.VariablesTest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-Q5PJLV91P1O"
+  }, {
+    "name" : "thread",
+    "value" : "2116@WIN-Q5PJLV91P1O.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af1f337efd56049c.json",
+  "parameterValues" : [ ]
+}

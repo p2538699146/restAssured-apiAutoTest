@@ -30,6 +30,4 @@ public class VariablesUtil extends JdbcUtil {
 
         return query.get("api_Name").toString();
     }
-
-
 }

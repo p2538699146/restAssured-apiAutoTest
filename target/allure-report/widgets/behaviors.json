@@ -1,15 +1,4 @@
 {
   "total" : 1,
-  "items" : [ {
-    "uid" : "71c2d8a12d0aee88cc7561500c0adf8d",
-    "name" : "企业微信-部门管理",
-    "statistic" : {
-      "failed" : 2,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 3
-    }
-  } ]
+  "items" : [ ]
 }

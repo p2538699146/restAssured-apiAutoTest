@@ -28,10 +28,6 @@ public class SendEmail extends Rest_Perfect {
 
     private static SendEmail sendEmail;
 
-    static {
-
-    }
-
     /**
      * 获取sendEmail对象
      *
@@ -88,11 +84,11 @@ public class SendEmail extends Rest_Perfect {
         props.put("mail.smtp.port", "25");
 
         // 身份验证实现
-        Session session = Session.getDefaultInstance(props, new javax.mail.Authenticator() {
+        Session session = Session.getDefaultInstance(props, new Authenticator() {
 
             protected PasswordAuthentication getPasswordAuthentication() {
                 // 第二个参数，就是我网易邮箱开启smtp的授权码
-                return new PasswordAuthentication("Kinfe_1114@163.com", "**写自己的邮箱和授权码");
+                return new PasswordAuthentication("写自己邮箱@163.com", "***写自己的授权码");
 
             }
 
@@ -104,7 +100,7 @@ public class SendEmail extends Rest_Perfect {
             Message message = new MimeMessage(session);
 
             // 设置发件人邮箱地址
-            message.setFrom(new InternetAddress("Kinfe_1114@163.com"));
+            message.setFrom(new InternetAddress("写自己邮箱@163.com"));
 
             // 设置收件人邮箱地址
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(addresseeEmail));
@@ -216,10 +212,10 @@ public class SendEmail extends Rest_Perfect {
                 }
             }
 
-            suiteResult.append("\nCase执行总数：" + (p_sum + f_sum));
+            suiteResult.append("Case执行总数：" + (p_sum + f_sum));
             suiteResult.append("\n通过：" + p_sum + "条");
             suiteResult.append("\n失败：" + f_sum + "条");
-            suiteResult.append((f_sum != 0 ? ("\n执行失败Method：" + err_Map.toString()) : ""));
+            suiteResult.append((f_sum > 0 ? ("\n执行出错的Method：" + JSON.toJSONString(err_Map)) : ""));
             suiteResult.append("\n执行花费时间：" + (timeSum / 1000) + "秒");
 
             logger.info("allure-report解析成功");
@@ -231,5 +227,4 @@ public class SendEmail extends Rest_Perfect {
         }
         return null;
     }
-
 }

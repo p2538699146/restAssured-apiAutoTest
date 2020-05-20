@@ -59,8 +59,6 @@ public class Rest_Perfect extends JdbcUtil {
     public String getSystemDate() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
         Date date = new Date();
-
-        logger.info("当前系统时间：" + date);
         return dateFormat.format(date);
     }
 
@@ -73,8 +71,6 @@ public class Rest_Perfect extends JdbcUtil {
     public static String getFormatDateTime() {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy月MM月dd日 HH:mm:ss");
         Date date = new Date();
-
-        logger.info("当前系统时间：" + date);
         return dateFormat.format(date);
     }
 }

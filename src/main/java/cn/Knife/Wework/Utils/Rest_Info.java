@@ -23,7 +23,7 @@ public class Rest_Info extends Super_Utils {
     private static Rest_Info rest_info;
 
     /**
-     * 如果rest_info为空则返回new一个
+     * 返回rest_info对象
      *
      * @return
      */

@@ -1,45 +1,5 @@
 {
-  "64d60aa04998b77520ce393e5dea975a" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "83f5d3e2150af5a6",
-      "status" : "failed",
-      "statusDetails" : "1 expectation failed.\nJSON path errcode doesn't match.\nExpected: <1>\n  Actual: 0\n",
-      "time" : {
-        "start" : 1589478057722,
-        "stop" : 1589478062584,
-        "duration" : 4862
-      }
-    } ]
-  },
-  "26b2095f489e295dc484fdddd59062ea" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9acbb302cae8bf3f",
-      "status" : "failed",
-      "statusDetails" : "1 expectation failed.\nJSON path errcode doesn't match.\nExpected: <1>\n  Actual: 0\n",
-      "time" : {
-        "start" : 1589478056628,
-        "stop" : 1589478057622,
-        "duration" : 994
-      }
-    } ]
-  },
-  "273adbe132111183a505d09961428800" : {
+  "b6c0f92db403dce4ec3d33fc076580db" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -49,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8e2444d6af6514b6",
+      "uid" : "af1f337efd56049c",
       "status" : "passed",
       "time" : {
-        "start" : 1589478062606,
-        "stop" : 1589478066470,
-        "duration" : 3864
+        "start" : 1590000814299,
+        "stop" : 1590000814658,
+        "duration" : 359
       }
     } ]
   }

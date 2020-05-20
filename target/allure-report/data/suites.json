@@ -6,48 +6,22 @@
     "children" : [ {
       "name" : "Knife-apiAutoTest",
       "children" : [ {
-        "name" : "cn.Knife.Wework.DepartmentTest",
+        "name" : "cn.Knife.Wework.VariablesTest",
         "children" : [ {
-          "name" : "testCreate",
-          "uid" : "9acbb302cae8bf3f",
-          "parentUid" : "5f84c59a5d55a461334529dba96c05bb",
-          "status" : "failed",
-          "time" : {
-            "start" : 1589478056628,
-            "stop" : 1589478057622,
-            "duration" : 994
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "testDelete",
-          "uid" : "83f5d3e2150af5a6",
-          "parentUid" : "5f84c59a5d55a461334529dba96c05bb",
-          "status" : "failed",
-          "time" : {
-            "start" : 1589478057722,
-            "stop" : 1589478062584,
-            "duration" : 4862
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ ]
-        }, {
-          "name" : "testUpdate",
-          "uid" : "8e2444d6af6514b6",
-          "parentUid" : "5f84c59a5d55a461334529dba96c05bb",
+          "name" : "jdbcUtilArgsTest",
+          "uid" : "af1f337efd56049c",
+          "parentUid" : "7b26665a2db1a40531380a187cba0b0a",
           "status" : "passed",
           "time" : {
-            "start" : 1589478062606,
-            "stop" : 1589478066470,
-            "duration" : 3864
+            "start" : 1590000814299,
+            "stop" : 1590000814658,
+            "duration" : 359
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "5f84c59a5d55a461334529dba96c05bb"
+        "uid" : "7b26665a2db1a40531380a187cba0b0a"
       } ],
       "uid" : "8f6b35e5717db41c5faea13564dfda11"
     } ],

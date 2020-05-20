@@ -1,6 +1,7 @@
 package cn.Knife.Wework;
 
 import cn.Knife.Wework.AddressBookManagement.Department;
+import cn.Knife.Wework.Utils.JdbcUtil;
 import cn.Knife.Wework.VariablesStore.VariablesUtil;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -37,5 +38,12 @@ public class VariablesTest extends BaseTest{
                 //如果我们执行的用例需要数据库断言？？
                 //或者执行后写条sql进行结果校验
                 .then().body("errcode", equalTo(aset));
+    }
+
+    @Test
+    public void jdbcUtilArgsTest() {
+        JdbcUtil jdbcUtil = new JdbcUtil();
+        String sql = "select * from apiautotestparamter where case_id = ? and api_Name = ?;";
+        jdbcUtil.query(sql, 1, "批量修改测试1");
     }
 }

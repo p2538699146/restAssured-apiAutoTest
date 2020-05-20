@@ -1,0 +1,187 @@
+2020-05-20 21:43:05 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:187) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 21:43:06 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:95) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 21:43:06 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:138) - [ INFO ] -> 
+当前执行查询sql：
+select * from apiautotestparamter where case_id = 6;
+查询结果：{result=, api_Type=post, paramter={"test":1,"desc":"这是测试数据写入"}, module=test, expected={"code":"1001"}, case_Id=6, api_Name=批量修改2, api_Uri=test/api, desc=数据写入测试}
+2020-05-20 22:07:03 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:191) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 22:07:04 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 22:07:04 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:140) - [ INFO ] -> 
+当前执行查询sql：
+select * from apiautotestparamter where case_id = 6;
+查询结果：{result=, api_Type=post, paramter={"test":1,"desc":"这是测试数据写入"}, module=test, expected={"code":"1001"}, case_Id=6, api_Name=批量修改2, api_Uri=test/api, desc=数据写入测试}
+2020-05-20 22:32:59 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:191) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 22:33:00 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 22:33:00 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:140) - [ INFO ] -> 
+当前执行查询sql：
+select * from apiautotestparamter where case_id = 1;
+查询结果：{result=, api_Type=post_json, paramter={"password":"p1213","username":"2538699146"}, module=login, expected={"msg":"登录成功"}, case_Id=1, api_Name=批量修改测试1, api_Uri=login_by, desc=正常登录}
+2020-05-20 22:33:48 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:191) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 22:33:48 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 22:33:48 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:140) - [ INFO ] -> 
+当前执行查询sql：
+select * from apiautotestparamter where case_id = 1 and module = 1;
+查询结果：{}
+2020-05-20 22:34:55 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:191) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 22:34:55 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 22:34:55 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:140) - [ INFO ] -> 
+当前执行查询sql：
+select * from apiautotestparamter where case_id = 1 and module = 1;
+查询结果：{}
+2020-05-20 22:36:49 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:191) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:15:46 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:191) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:15:46 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:15:46 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:149) - [ ERROR ] -> sql执行异常，清检查sql语句！
+2020-05-20 23:15:46 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:150) - [ ERROR ] -> 报错内容：java.sql.SQLSyntaxErrorException: Unknown column 'login' in 'where clause'
+2020-05-20 23:17:51 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:191) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:17:52 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:17:52 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:149) - [ ERROR ] -> sql执行异常，清检查sql语句！
+2020-05-20 23:17:52 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:150) - [ ERROR ] -> 报错内容：java.sql.SQLSyntaxErrorException: Unknown column 'login' in 'where clause'
+2020-05-20 23:18:43 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:191) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:18:43 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:18:43 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:149) - [ ERROR ] -> sql执行异常，清检查sql语句！
+2020-05-20 23:18:43 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:150) - [ ERROR ] -> 报错内容：java.sql.SQLSyntaxErrorException: Unknown column 'login' in 'where clause'
+2020-05-20 23:19:05 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:192) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:19:05 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:19:05 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:149) - [ ERROR ] -> sql执行异常，清检查sql语句！
+2020-05-20 23:19:05 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:150) - [ ERROR ] -> 报错内容：java.sql.SQLSyntaxErrorException: Unknown column 'login' in 'where clause'
+2020-05-20 23:19:59 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:192) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:19:59 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:19:59 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:140) - [ INFO ] -> 
+当前执行查询sql：
+select * from apiautotestparamter where case_id = 6;
+查询结果：{result=, api_Type=post, paramter={"test":1,"desc":"这是测试数据写入"}, module=test, expected={"code":"1001"}, case_Id=6, api_Name=批量修改2, api_Uri=test/api, desc=数据写入测试}
+2020-05-20 23:19:59 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:140) - [ INFO ] -> 
+当前执行查询sql：
+select api_Name from apiautotestparamter where case_id = 1;
+查询结果：{api_Name=批量修改测试1}
+2020-05-20 23:20:52 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:192) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:20:52 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:20:52 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:149) - [ ERROR ] -> sql执行异常，清检查sql语句！
+2020-05-20 23:20:52 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:150) - [ ERROR ] -> 报错内容：java.sql.SQLSyntaxErrorException: Unknown column '批量修改测试1' in 'where clause'
+2020-05-20 23:21:05 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:192) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:21:06 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:21:15 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:149) - [ ERROR ] -> sql执行异常，清检查sql语句！
+2020-05-20 23:21:15 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:150) - [ ERROR ] -> 报错内容：java.sql.SQLSyntaxErrorException: Unknown column '批量修改测试1' in 'where clause'
+2020-05-20 23:23:24 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:192) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:23:25 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:23:25 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:140) - [ INFO ] -> 
+当前执行查询sql：
+select * from apiautotestparamter where case_id = 1 AND api_Name = '批量修改测试1';
+查询结果：{result=, api_Type=post_json, paramter={"password":"p1213","username":"2538699146"}, module=login, expected={"msg":"登录成功"}, case_Id=1, api_Name=批量修改测试1, api_Uri=login_by, desc=正常登录}
+2020-05-20 23:25:46 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:192) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:25:46 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:25:46 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:149) - [ ERROR ] -> sql执行异常，清检查sql语句！
+2020-05-20 23:25:46 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:150) - [ ERROR ] -> 报错内容：java.sql.SQLSyntaxErrorException: Unknown column '批量修改测试1' in 'where clause'
+2020-05-20 23:26:35 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:192) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:26:36 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:26:36 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:149) - [ ERROR ] -> sql执行异常，清检查sql语句！
+2020-05-20 23:26:36 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:150) - [ ERROR ] -> 报错内容：java.sql.SQLSyntaxErrorException: Unknown column '批量修改测试1' in 'where clause'
+2020-05-20 23:26:56 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:192) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:26:56 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:26:56 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:149) - [ ERROR ] -> sql执行异常，清检查sql语句！
+2020-05-20 23:26:56 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:150) - [ ERROR ] -> 报错内容：java.sql.SQLSyntaxErrorException: Unknown column '批量修改测试1' in 'where clause'
+2020-05-20 23:27:25 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:192) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:27:26 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:27:26 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:140) - [ INFO ] -> 
+当前执行查询sql：
+select * from apiautotestparamter where case_id = 1 AND api_Name = '批量修改测试1';
+查询结果：{result=, api_Type=post_json, paramter={"password":"p1213","username":"2538699146"}, module=login, expected={"msg":"登录成功"}, case_Id=1, api_Name=批量修改测试1, api_Uri=login_by, desc=正常登录}
+2020-05-20 23:28:55 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:192) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:28:56 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:28:56 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:149) - [ ERROR ] -> sql执行异常，清检查sql语句！
+2020-05-20 23:28:56 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:150) - [ ERROR ] -> 报错内容：java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '批量修改测试1''' at line 1
+2020-05-20 23:29:07 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:192) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:29:08 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:97) - [ INFO ] -> 开始执行查询操作！
+2020-05-20 23:29:08 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:140) - [ INFO ] -> 
+当前执行查询sql：
+select * from apiautotestparamter where case_id = 1 AND api_Name = '批量修改测试1';
+查询结果：{result=, api_Type=post_json, paramter={"password":"p1213","username":"2538699146"}, module=login, expected={"msg":"登录成功"}, case_Id=1, api_Name=批量修改测试1, api_Uri=login_by, desc=正常登录}
+2020-05-20 23:38:50 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.getConnection(JdbcQueryUtil.java:192) - [ INFO ] -> 
+***********开始连接数据库***********
+连接地址：[jdbc:mysql://localhost:3306/test?serverTimezone=UTC]
+用户名：[root]
+密码：[p2538699146]
+2020-05-20 23:38:51 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:80) - [ INFO ] -> 开始执行更新数据操作！
+2020-05-20 23:38:51 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:149) - [ ERROR ] -> sql执行异常，清检查sql语句！
+2020-05-20 23:38:51 Method: cn.Knife.Wework.Utils.JdbcQueryUtil.jdbcQueryAndUpdate(JdbcQueryUtil.java:150) - [ ERROR ] -> 报错内容：java.sql.SQLException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs

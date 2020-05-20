@@ -25,6 +25,7 @@ public class ReadUtil {
 
     /**
      * 读取文件返回string
+     *
      * @param path
      * @return
      */
@@ -45,10 +46,5 @@ public class ReadUtil {
             logger.error("报错内容：" + e);
         }
         return null;
-    }
-
-    public static void main(String[] args) {
-        String s = readFile("D:\\Knife-Test\\target\\allure-report\\data\\suites.json");
-        System.out.println(s);
     }
 }

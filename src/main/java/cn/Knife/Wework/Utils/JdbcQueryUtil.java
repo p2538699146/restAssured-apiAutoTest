@@ -42,7 +42,9 @@ public class JdbcQueryUtil extends Super_Utils {
             try {
                 properties.load(JdbcQueryUtil.class.getResourceAsStream(JDBC_PATH));
             } catch (IOException e) {
-                e.printStackTrace();
+
+                logger.error("文件读取异常，清检查读写路径！");
+                logger.error("报错内容：" + e);
             }
         }
         return properties;
@@ -143,7 +145,22 @@ public class JdbcQueryUtil extends Super_Utils {
                     return queryVlues;
                 }
             } catch (SQLException e) {
+
+                logger.error("sql执行异常，清检查sql语句！");
+                logger.error("报错内容：" + e);
                 e.printStackTrace();
+            } finally {
+
+                //关闭连接，释放资源
+                if (Objects.nonNull(connection)) {
+                    try {
+                        connection.close();
+                    } catch (SQLException e) {
+
+                        logger.error("资源关闭异常！");
+                        logger.error("报错内容：" + e);
+                    }
+                }
             }
         }
         return null;
@@ -181,7 +198,8 @@ public class JdbcQueryUtil extends Super_Utils {
                 connection = DriverManager.getConnection(url, user, password);
 
             } catch (SQLException e) {
-                logger.error("数据库连接失败，请检查链接地址、用户名、密码！");
+
+                logger.error("数据库连接失败，请检查连接地址、用户名、密码！");
                 logger.error("报错内容：" + e);
             }
         }

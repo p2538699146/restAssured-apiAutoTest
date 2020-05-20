@@ -37,7 +37,7 @@ public class OutputDos extends Rest_Perfect {
     }
 
     /**
-     * 输入路径（从target根路径输入）：ruresults和report得到allure得html报告
+     * 输入路径（从target根路径输入）：results和report得到allure得html报告
      *
      * @param rawPath
      * @param outPath
@@ -45,9 +45,9 @@ public class OutputDos extends Rest_Perfect {
     public static void allureGenerateHtmlReport(String rawPath, String outPath) {
         StringBuffer dos = new StringBuffer();
         dos.append(String.format("cmd /c allure generate %s -o %s --clean", (classPath + rawPath), (classPath + outPath)));
-        //从cmd 输入dos命令
-        try {
+        try  {
             Process exec = Runtime.getRuntime().exec(dos.toString());
+            //执行dos命令
             exec.waitFor();
         } catch (Exception e) {
             logger.error("文件路径错误，请重新输入！");

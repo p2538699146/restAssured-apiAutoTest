@@ -10,12 +10,14 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.apache.log4j.Logger;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.HashMap;
 import java.util.Objects;
+
 
 /**
  * @author Knife
@@ -59,7 +61,7 @@ public class Super_Utils {
             );
             return documentContext.jsonString();
         }
-        logger.warn("当前未获取Json模板中的数据！");
+        logger.warn("当前未获到取Json模板中的数据！");
         logger.warn("当前读取模板路径：" + (Objects.nonNull(path) ? path : "NULL"));
         logger.warn("替换模板内容：" + (Objects.nonNull(parame) ? parame : "NULL"));
         return null;
@@ -142,7 +144,9 @@ public class Super_Utils {
                             e -> bodyByMap.put(e.getKey(),e.getValue())
                     );
                     rest_info.body = JSON.toJSONString(bodyByMap);*/
+
                     logger.warn("请选择body，或json模板方式传参");
+
                     return null;
                 }
 
@@ -165,8 +169,10 @@ public class Super_Utils {
             //返回的rest_info对象，这里已经替换过query或body
             return rest_info;
         }
+
         logger.warn("Path：" + (Objects.nonNull(path) ? path : "Null"));
         logger.warn("Parame：" + (Objects.nonNull(parame) ? JSON.toJSONString(parame) : "Null"));
+
         return null;
     }
 
@@ -229,12 +235,14 @@ public class Super_Utils {
             try (OutputStream os = new FileOutputStream(new File(path))) {
                 //写入对象到yaml文件
                 objectMapper.writeValue(os, obj);
+
                 //打印写入yaml的数据
-                logger.info("写入内容如下：");
-                logger.info("***********************************************************************");
-                logger.info(objectMapper.writeValueAsString(obj));
-                logger.info("***********************************************************************");
+                logger.info("\n写入内容如下：" +
+                        "\n***********************************************************************"
+                        + "\n" + objectMapper.writeValueAsString(obj)
+                        + "\n***********************************************************************");
             } catch (IOException e) {
+
                 logger.error("文件读写异常，请检查路径：" + path);
                 logger.info("当前写入内容：" + obj.toString());
                 logger.error("报错内容：" + e);

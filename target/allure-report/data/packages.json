@@ -2,47 +2,21 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "cn.Knife.Wework.DepartmentTest",
+    "name" : "cn.Knife.Wework.VariablesTest",
     "children" : [ {
-      "name" : "testCreate",
-      "uid" : "9acbb302cae8bf3f",
-      "parentUid" : "cf7bdcce9d42324262518f7bec0401cb",
-      "status" : "failed",
-      "time" : {
-        "start" : 1589478056628,
-        "stop" : 1589478057622,
-        "duration" : 994
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "testDelete",
-      "uid" : "83f5d3e2150af5a6",
-      "parentUid" : "cf7bdcce9d42324262518f7bec0401cb",
-      "status" : "failed",
-      "time" : {
-        "start" : 1589478057722,
-        "stop" : 1589478062584,
-        "duration" : 4862
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "testUpdate",
-      "uid" : "8e2444d6af6514b6",
-      "parentUid" : "cf7bdcce9d42324262518f7bec0401cb",
+      "name" : "jdbcUtilArgsTest",
+      "uid" : "af1f337efd56049c",
+      "parentUid" : "c59b55b2e4235dc975f74b079925579f",
       "status" : "passed",
       "time" : {
-        "start" : 1589478062606,
-        "stop" : 1589478066470,
-        "duration" : 3864
+        "start" : 1590000814299,
+        "stop" : 1590000814658,
+        "duration" : 359
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "cn.Knife.Wework.DepartmentTest"
+    "uid" : "cn.Knife.Wework.VariablesTest"
   } ]
 }

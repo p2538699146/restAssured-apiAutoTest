@@ -1,4 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Fri May 15 01:40:57 CST 2020","Fri May 15 01:41:02 CST 2020","4862","Default Suite","Knife-apiAutoTest","cn.Knife.Wework.DepartmentTest","cn.Knife.Wework.DepartmentTest","testDelete","testDelete","删除部门正确业务场景测试"
-"passed","Fri May 15 01:41:02 CST 2020","Fri May 15 01:41:06 CST 2020","3864","Default Suite","Knife-apiAutoTest","cn.Knife.Wework.DepartmentTest","cn.Knife.Wework.DepartmentTest","testUpdate","testUpdate","验证修改部门的正确业务流程"
-"failed","Fri May 15 01:40:56 CST 2020","Fri May 15 01:40:57 CST 2020","994","Default Suite","Knife-apiAutoTest","cn.Knife.Wework.DepartmentTest","cn.Knife.Wework.DepartmentTest","testCreate","testCreate","验证部门创建正确业务流程"
+"passed","Thu May 21 02:53:34 CST 2020","Thu May 21 02:53:34 CST 2020","359","Default Suite","Knife-apiAutoTest","cn.Knife.Wework.VariablesTest","cn.Knife.Wework.VariablesTest","jdbcUtilArgsTest","jdbcUtilArgsTest",""
